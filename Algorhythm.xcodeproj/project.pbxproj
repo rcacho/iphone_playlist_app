@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9E5729D1B377FD700AB80D1 /* PlaylistDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E5729C1B377FD700AB80D1 /* PlaylistDetailViewController.m */; };
+		C9E742A41B37D05400E5E1C1 /* Playlist.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E742A31B37D05400E5E1C1 /* Playlist.m */; };
+		C9E7E9701B37686500112853 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E7E96F1B37686500112853 /* main.m */; };
+		C9E7E9731B37686500112853 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E7E9721B37686500112853 /* AppDelegate.m */; };
+		C9E7E9761B37686500112853 /* PlaylistMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E7E9751B37686500112853 /* PlaylistMasterViewController.m */; };
+		C9E7E9791B37686500112853 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9E7E9771B37686500112853 /* Main.storyboard */; };
+		C9E7E97B1B37686500112853 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9E7E97A1B37686500112853 /* Images.xcassets */; };
+		C9E7E97E1B37686500112853 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9E7E97C1B37686500112853 /* LaunchScreen.xib */; };
+		C9E7E98A1B37686500112853 /* AlgorhythmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E7E9891B37686500112853 /* AlgorhythmTests.m */; };
+		C9E886691B37BCE6000CE243 /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = C9E886681B37BCE6000CE243 /* Assets */; };
+		C9E8866C1B37C76A000CE243 /* MusicLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E8866B1B37C76A000CE243 /* MusicLibrary.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9E7E9841B37686500112853 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9E7E9621B37686500112853 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9E7E9691B37686500112853;
+			remoteInfo = Algorhythm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C9E4F3741B377213007D836A /* PlaylistDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaylistDetailViewController.h; sourceTree = "<group>"; };
+		C9E5729C1B377FD700AB80D1 /* PlaylistDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaylistDetailViewController.m; sourceTree = "<group>"; };
+		C9E742A21B37D05400E5E1C1 /* Playlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Playlist.h; sourceTree = "<group>"; };
+		C9E742A31B37D05400E5E1C1 /* Playlist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Playlist.m; sourceTree = "<group>"; };
+		C9E7E96A1B37686500112853 /* Algorhythm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algorhythm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9E7E96E1B37686500112853 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9E7E96F1B37686500112853 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C9E7E9711B37686500112853 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C9E7E9721B37686500112853 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C9E7E9741B37686500112853 /* PlaylistMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlaylistMasterViewController.h; sourceTree = "<group>"; };
+		C9E7E9751B37686500112853 /* PlaylistMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlaylistMasterViewController.m; sourceTree = "<group>"; };
+		C9E7E9781B37686500112853 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C9E7E97A1B37686500112853 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C9E7E97D1B37686500112853 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C9E7E9831B37686500112853 /* AlgorhythmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgorhythmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9E7E9881B37686500112853 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9E7E9891B37686500112853 /* AlgorhythmTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgorhythmTests.m; sourceTree = "<group>"; };
+		C9E886681B37BCE6000CE243 /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Assets; path = ../../../Downloads/Assets; sourceTree = "<group>"; };
+		C9E8866A1B37C76A000CE243 /* MusicLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicLibrary.h; sourceTree = "<group>"; };
+		C9E8866B1B37C76A000CE243 /* MusicLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicLibrary.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9E7E9671B37686500112853 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9E7E9801B37686500112853 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9E7E9611B37686500112853 = {
+			isa = PBXGroup;
+			children = (
+				C9E7E96C1B37686500112853 /* Algorhythm */,
+				C9E7E9861B37686500112853 /* AlgorhythmTests */,
+				C9E7E96B1B37686500112853 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9E7E96B1B37686500112853 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9E7E96A1B37686500112853 /* Algorhythm.app */,
+				C9E7E9831B37686500112853 /* AlgorhythmTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9E7E96C1B37686500112853 /* Algorhythm */ = {
+			isa = PBXGroup;
+			children = (
+				C9E7E9711B37686500112853 /* AppDelegate.h */,
+				C9E7E9721B37686500112853 /* AppDelegate.m */,
+				C9E7E9741B37686500112853 /* PlaylistMasterViewController.h */,
+				C9E7E9751B37686500112853 /* PlaylistMasterViewController.m */,
+				C9E4F3741B377213007D836A /* PlaylistDetailViewController.h */,
+				C9E5729C1B377FD700AB80D1 /* PlaylistDetailViewController.m */,
+				C9E742A21B37D05400E5E1C1 /* Playlist.h */,
+				C9E742A31B37D05400E5E1C1 /* Playlist.m */,
+				C9E8866A1B37C76A000CE243 /* MusicLibrary.h */,
+				C9E8866B1B37C76A000CE243 /* MusicLibrary.m */,
+				C9E7E9771B37686500112853 /* Main.storyboard */,
+				C9E7E97A1B37686500112853 /* Images.xcassets */,
+				C9E886681B37BCE6000CE243 /* Assets */,
+				C9E7E97C1B37686500112853 /* LaunchScreen.xib */,
+				C9E7E96D1B37686500112853 /* Supporting Files */,
+			);
+			path = Algorhythm;
+			sourceTree = "<group>";
+		};
+		C9E7E96D1B37686500112853 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9E7E96E1B37686500112853 /* Info.plist */,
+				C9E7E96F1B37686500112853 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C9E7E9861B37686500112853 /* AlgorhythmTests */ = {
+			isa = PBXGroup;
+			children = (
+				C9E7E9891B37686500112853 /* AlgorhythmTests.m */,
+				C9E7E9871B37686500112853 /* Supporting Files */,
+			);
+			path = AlgorhythmTests;
+			sourceTree = "<group>";
+		};
+		C9E7E9871B37686500112853 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9E7E9881B37686500112853 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9E7E9691B37686500112853 /* Algorhythm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9E7E98D1B37686500112853 /* Build configuration list for PBXNativeTarget "Algorhythm" */;
+			buildPhases = (
+				C9E7E9661B37686500112853 /* Sources */,
+				C9E7E9671B37686500112853 /* Frameworks */,
+				C9E7E9681B37686500112853 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Algorhythm;
+			productName = Algorhythm;
+			productReference = C9E7E96A1B37686500112853 /* Algorhythm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C9E7E9821B37686500112853 /* AlgorhythmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9E7E9901B37686500112853 /* Build configuration list for PBXNativeTarget "AlgorhythmTests" */;
+			buildPhases = (
+				C9E7E97F1B37686500112853 /* Sources */,
+				C9E7E9801B37686500112853 /* Frameworks */,
+				C9E7E9811B37686500112853 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9E7E9851B37686500112853 /* PBXTargetDependency */,
+			);
+			name = AlgorhythmTests;
+			productName = AlgorhythmTests;
+			productReference = C9E7E9831B37686500112853 /* AlgorhythmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9E7E9621B37686500112853 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = XCodeClub;
+				TargetAttributes = {
+					C9E7E9691B37686500112853 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					C9E7E9821B37686500112853 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = C9E7E9691B37686500112853;
+					};
+				};
+			};
+			buildConfigurationList = C9E7E9651B37686500112853 /* Build configuration list for PBXProject "Algorhythm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9E7E9611B37686500112853;
+			productRefGroup = C9E7E96B1B37686500112853 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9E7E9691B37686500112853 /* Algorhythm */,
+				C9E7E9821B37686500112853 /* AlgorhythmTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9E7E9681B37686500112853 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9E7E9791B37686500112853 /* Main.storyboard in Resources */,
+				C9E886691B37BCE6000CE243 /* Assets in Resources */,
+				C9E7E97E1B37686500112853 /* LaunchScreen.xib in Resources */,
+				C9E7E97B1B37686500112853 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9E7E9811B37686500112853 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9E7E9661B37686500112853 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9E7E9761B37686500112853 /* PlaylistMasterViewController.m in Sources */,
+				C9E742A41B37D05400E5E1C1 /* Playlist.m in Sources */,
+				C9E5729D1B377FD700AB80D1 /* PlaylistDetailViewController.m in Sources */,
+				C9E7E9731B37686500112853 /* AppDelegate.m in Sources */,
+				C9E7E9701B37686500112853 /* main.m in Sources */,
+				C9E8866C1B37C76A000CE243 /* MusicLibrary.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9E7E97F1B37686500112853 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9E7E98A1B37686500112853 /* AlgorhythmTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9E7E9851B37686500112853 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9E7E9691B37686500112853 /* Algorhythm */;
+			targetProxy = C9E7E9841B37686500112853 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C9E7E9771B37686500112853 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9E7E9781B37686500112853 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C9E7E97C1B37686500112853 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9E7E97D1B37686500112853 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9E7E98B1B37686500112853 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C9E7E98C1B37686500112853 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9E7E98E1B37686500112853 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Algorhythm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C9E7E98F1B37686500112853 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Algorhythm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C9E7E9911B37686500112853 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AlgorhythmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Algorhythm.app/Algorhythm";
+			};
+			name = Debug;
+		};
+		C9E7E9921B37686500112853 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AlgorhythmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Algorhythm.app/Algorhythm";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9E7E9651B37686500112853 /* Build configuration list for PBXProject "Algorhythm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9E7E98B1B37686500112853 /* Debug */,
+				C9E7E98C1B37686500112853 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9E7E98D1B37686500112853 /* Build configuration list for PBXNativeTarget "Algorhythm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9E7E98E1B37686500112853 /* Debug */,
+				C9E7E98F1B37686500112853 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9E7E9901B37686500112853 /* Build configuration list for PBXNativeTarget "AlgorhythmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9E7E9911B37686500112853 /* Debug */,
+				C9E7E9921B37686500112853 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9E7E9621B37686500112853 /* Project object */;
+}
